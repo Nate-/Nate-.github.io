@@ -1,0 +1,86 @@
+.two-col {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.content-body {
+    margin-right: auto;
+    margin-left: auto;
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    background-color: rgba(81,87,95,0.8);
+    border-radius: 25px;
+    color: white;
+    width: 80%;
+    padding: 0.0em 1.5em 1.5em 1.5em
+}  
+
+.logo {
+    margin: auto;
+    background-color: white;
+    border-style: outset;
+    border-color: darkgray;
+    border-width: 5px; 
+}
+
+.title {
+    font-family: 'Slabo 27px', serif;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: #5ECCD1;
+}
+
+.subtitle {
+    font-size: 1.1em;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.pad-top:not(:first-child) {
+    padding-top: 2em;
+}
+
+.pageHeader {
+    color: #B1C120;
+}
+
+.selfie {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+svg.projLink {
+   fill: red;
+   height: 1em;
+   width: 1em;
+}
+
+.btn-success > a {
+    color: red;
+    background-color: transparent;
+    border-color: red;
+    border-width: medium;
+}
+
+.btn-success:focus > a
+.btn-success:active > a,
+.btn-success:hover > a {
+    font-size: 1.1em;    
+}

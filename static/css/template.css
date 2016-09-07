@@ -1,0 +1,25 @@
+html {
+    background: url(../img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    padding-top: 50px;
+}
+
+p {
+    text-indent: 50px;
+}
+
+.icon {
+     fill: red;
+     width: 32px;
+     height: 32px;
+}
+
+.footer {
+    padding-top: 0.5em;
+}
